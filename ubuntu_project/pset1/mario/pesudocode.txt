@@ -1,0 +1,5 @@
+1. User  enter height value .
+2. Check value input:if value is not between 1 and 8, return step 1.
+    +Using do while loop to enter value at least 1.
+    +Using for loop to print pyramid
+3. Input these value to check your result

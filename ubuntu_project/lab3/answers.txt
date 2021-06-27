@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: In sorted list susch as sorted50000(with a large numbers), the Buble sort run faster than the others
+
+sort2 uses: Merge sort
+
+How do you know?: In document, Merge sort is faster than selection sort If we compare running time
+
+sort3 uses: Selection sort
+
+How do you know?: In document, Merge sort is slower than selection sort If we compare running time

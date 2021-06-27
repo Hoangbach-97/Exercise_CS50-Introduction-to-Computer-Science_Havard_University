@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+
+{% block body %}
+    <h1>Register</h1>
+<form action="/register" method = "POST">
+    <input name="email" type="email" autofocus placeholder="Enter email">
+    <select name="sport">
+        <!-- I can hack option Choose here by AD HOC-->
+        <option name="" disabled selected>Choose</option>
+       {% for sport in sports %}
+       <option value={{sport}}>{{sport}}</option>
+       {% endfor %}
+
+    </select>
+    <input type="submit" value="Register">
+</form>
+
+{% endblock %}

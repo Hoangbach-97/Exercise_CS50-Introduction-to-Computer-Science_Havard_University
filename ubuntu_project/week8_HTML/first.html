@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+          <script>
+            function click()
+            {
+                // let name = document.querySelector('#name').value;
+                alert('hello' + name);
+            }
+            // document.addEventListener('DOMContentLoaded', click);
+        </script>
+        <title>
+            CS50
+        </title>
+    </head>
+    <body>
+        <!--<h1> WELCOME TO PETER</h1>-->
+        <!--<form action="https://google.com/search" method="get">-->
+        <!--    <input type="search" name="q">-->
+        <!--    <input type="submit" name="search" value="Search on Google">-->
+        <!--</form>-->
+
+          <form onsubmit="click(); return false;">
+            <input id="name" autofocus="true" type="text" >
+            <input type="submit">
+        </form>
+
+    </body>
+</html>

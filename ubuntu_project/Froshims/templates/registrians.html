@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<table style="border: 2px solid blue">
+    <thead>
+        <tr >
+            <th>Name</th>
+            <th>Sport</th>
+        </tr>
+    </thead>
+
+    <tbody>
+    {%   for registrian in registrians %}
+
+    <tr>
+        <td>{{registrian.name}}</td>
+        <td>{{registrian.sport}}</td>
+    </tr>
+
+    {% endfor %}
+
+    </tbody>
+</table>
+
+{% endblock %}
+
